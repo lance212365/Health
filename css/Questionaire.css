@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'PrintBoldOT';
+	src:
+	    url('fonts/print_bold_ot.otf'); 
+}
+#questionnaire{
+}
+#title{
+    text-align: center;
+    padding: 50px;
+    font-size: 36px;
+    
+}
+#banner{
+    position:absolute;
+    z-index:-1;
+    opacity: 0.35;
+}
+#imgtitle{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    font-size: 80px;
+    font-family: 'PrintBoldOT';
+}
+#objective{
+    padding:50px;
+    padding-bottom:20px;
+}
+#objective table{
+    background-color: #FFF;
+    width: 100%;
+    margin:auto;
+}
+#objective table tr{
+    background-color: #EEEEFF;
+}
+#objective #intro{
+    padding-top: 36px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#objective table td{
+    padding: 18px;
+}
+#objective table td li{
+    padding: 8px;
+    list-style-type: circle;
+}
+#objective table td ol li{list-style-type: upper-roman;}
+#howto{
+    padding:20px;
+    padding-bottom:50px;
+}
+#howto table{
+    background-color: #EEFFEE;
+    width: 100%;
+    margin:auto;
+}
+#howto #intro{
+    padding-top: 36px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+#howto table td{
+    padding-top: 36px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+#howto table td li{
+    padding: 8px;
+    list-style-type: circle;
+}
+#go{
+    margin:auto;
+    padding-bottom: 96px;
+    text-align: center;
+}
+#que_header{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url('../images/que_header.jpg');
+    background-size: 100% ;
+    height: 80vh;
+}

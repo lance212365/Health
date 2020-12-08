@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'PrintBoldOT';
+	src:
+	    url('fonts/print_bold_ot.otf'); 
+}
+@font-face {
+	font-family: 'TimelessBold';
+	src:
+	    url('fonts/Timeless-Bold.ttf'); 
+}
+@font-face {
+	font-family: 'Chapaza';
+	src:
+	    url('fonts/Chapaza.ttf'); 
+}
+.mainHeader{
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    height:400px;
+    right:0px;
+}
+.mainHeader h1{
+    position:absolute;
+    text-align:right;
+    bottom:25%;
+    right:5%;
+    font-size:90px;
+    font-style:italic;
+}
+.mainHeader h2{
+    position:absolute;
+    text-align:right;
+    bottom:30%;
+    right:2%;
+    font-size:60px;
+    font-style:italic;
+}
+.mainHeader img{
+    position:absolute;
+    right:-8%;
+    width:1080px;
+    height:400px;
+}
+.mainContent{
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Chapaza';
+    font-size:24px;
+    width:50%;
+}
+.mainContent p::first-letter {
+  font-size: 500%;
+}
+.mainContent #song {
+  text-align:center;
+  font-style:italic;
+  padding-top:10px;
+  padding-bottom:10px;
+  line-height:2.5;
+}
+#imgfloat{
+    width:350px;
+}
+#imgfloat.floatleft{
+    float:left;
+}
+#imgfloat.floatright{
+    float:right;
+}

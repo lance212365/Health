@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'TimelessBold';
+	src:
+	    url('fonts/Timeless-Bold.ttf'); 
+}
+
+.nav-item{
+    padding-left: 70px !important;
+}
+#leafhover{
+    position: relative;
+    width:140px;
+    height:30px;
+    padding: 0px !important;
+    display:block;
+}
+#leafhover p{
+    position:absolute;
+    font-family: 'TimelessBold';
+    font-size:24px;
+    right:8px;
+}
+#leafhover img{
+    position:absolute;
+    width:210px;
+    height:70px;
+    top:-16px;
+    right: 0px;
+    opacity: 0;
+    transition: 0.3s;
+}
+#leafhover:hover img{
+    opacity: 0.4;
+}
